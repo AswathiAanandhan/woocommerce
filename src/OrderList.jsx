@@ -11,7 +11,7 @@ export const OrderList = () => {
       const [qty,setQty]=useState()
       const handlePageClick = (data) => {
         loadOrders(data.selected + 1);
-      };
+      };   
 
       const handleQuantityChange = (orderId, lineItemId,quantity) => {
 
